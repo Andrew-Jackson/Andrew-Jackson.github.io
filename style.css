@@ -5,7 +5,7 @@
 		left: -100%;
 	}
 	to {
-		opacity: 0.75;
+		opacity: 1;
 		left: 5%;
 	}
 }
@@ -16,7 +16,7 @@
 		left: -100%;
 	}
 	to {
-		opacity: 0.75;
+		opacity: 1;
 		left: 5%;
 	}
 }
@@ -27,7 +27,7 @@
 		left: 150%;
 	}
 	to {
-		opacity: 0.75;
+		opacity: 1;
 		left: 7%;
 	}
 }
@@ -38,7 +38,7 @@
 		left: 150%;
 	}
 	to {
-		opacity: 0.75;
+		opacity: 1;
 		left: 7%;
 	}
 }
@@ -81,7 +81,7 @@
 
 
 body {
-	background-image: url('http://androidwallpape.rs/content/02-wallpapers/86-windydunes/1920_Windy%20Dunes.jpg');
+	background-image: url('background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -90,7 +90,7 @@ body {
 }
 
 div#home {
-	opacity: 0.75;
+	opacity: 1;
 	position: absolute;
 	top: 15px;
 	right: 15px;
@@ -111,7 +111,7 @@ div#home:hover {
 span#h1 {
 	display: block;
 	position: absolute;
-	color: #ecf0f1;
+	color: #2980b9;
 	font-weight: 300;
 	margin: 0;
 	animation-name: header1;
@@ -135,7 +135,7 @@ span#h1 {
 span#h2 {
 	display: block;
 	position: absolute;
-	color: #ecf0f1;
+	color: #2980b9;
 	font-weight: 300;
 	margin: 0;
 	animation-name: header2;
@@ -181,7 +181,7 @@ nav a {
 	display: inline-block;
 	width: 25%;
 	padding: 1em 3.6665%;
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(255, 255, 255, 1);
 	background-color: rgba(50, 50, 50, 0.25);
 	font-weight: 300;
 	text-align: center;
@@ -214,7 +214,7 @@ div#main {
 }
 
 div#main h1 {
-	color: #ecf0f1;
+	color: #2980b9;
 	font-weight: 300;
 	margin: 0;
 	margin-left: 5%;
