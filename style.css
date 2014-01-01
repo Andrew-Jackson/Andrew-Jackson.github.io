@@ -1,0 +1,250 @@
+
+@keyframes header1 {
+	from {
+		opacity: 0;
+		left: -100%;
+	}
+	to {
+		opacity: 0.75;
+		left: 5%;
+	}
+}
+
+@-webkit-keyframes header1 {
+	from {
+		opacity: 0;
+		left: -100%;
+	}
+	to {
+		opacity: 0.75;
+		left: 5%;
+	}
+}
+
+@keyframes header2 {
+	from {
+		opacity: 0;
+		left: 150%;
+	}
+	to {
+		opacity: 0.75;
+		left: 7%;
+	}
+}
+
+@-webkit-keyframes header2 {
+	from {
+		opacity: 0;
+		left: 150%;
+	}
+	to {
+		opacity: 0.75;
+		left: 7%;
+	}
+}
+
+@keyframes nav {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes nav {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes main {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes main {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+body {
+	background-image: url('http://androidwallpape.rs/content/02-wallpapers/86-windydunes/1920_Windy%20Dunes.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+div#home {
+	opacity: 0.75;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 3.75%;
+	background-color: rgba(50, 50, 50, 0.25);
+	background-image: url('home.png');
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+div#home:hover {
+	background-color: rgba(50, 50, 50, 0.5);
+}
+
+span#h1 {
+	display: block;
+	position: absolute;
+	color: #ecf0f1;
+	font-weight: 300;
+	margin: 0;
+	animation-name: header1;
+	animation-duration: 0.125s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-delay: 1.5s;
+	animation-play-state: paused;
+	animation-fill-mode: both;
+	-webkit-animation-name: header1;
+	-webkit-animation-duration: 0.125s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-play-state: paused;
+	-webkit-animation-fill-mode: both;
+}
+
+span#h2 {
+	display: block;
+	position: absolute;
+	color: #ecf0f1;
+	font-weight: 300;
+	margin: 0;
+	animation-name: header2;
+	animation-duration: 0.125s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-delay: 2.5s;
+	animation-play-state: paused;
+	animation-fill-mode: both;
+	-webkit-animation-name: header2;
+	-webkit-animation-duration: 0.125s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 2.5s;
+	-webkit-animation-play-state: paused;
+	-webkit-animation-fill-mode: both;
+}
+
+nav {
+	position: absolute;
+	left: 7.5%;
+	animation-name: nav;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-delay: 3s;
+	animation-play-state: paused;
+	animation-fill-mode: both;
+	-webkit-animation-name: nav;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-play-state: paused;
+	-webkit-animation-fill-mode: both;
+}
+
+nav a {
+	display: inline-block;
+	width: 25%;
+	padding: 1em 3.6665%;
+	color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(50, 50, 50, 0.25);
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+nav a:hover {
+	background-color: rgba(50, 50, 50, 0.375);
+}
+
+div#main {
+	width: 100%;
+	animation-name: main;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-delay: 1s;
+	animation-play-state: paused;
+	animation-fill-mode: both;
+	-webkit-animation-name: main;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-play-state: paused;
+	-webkit-animation-fill-mode: both;
+}
+
+div#main h1 {
+	color: #ecf0f1;
+	font-weight: 300;
+	margin: 0;
+	margin-left: 5%;
+}
+
+div#board {
+	margin: 5% auto;
+	background-color: #ecf0f1;
+	padding: 5%;
+}
+
+div#board>div {
+	width: 100%;
+}
+
+div#board div div {
+	display: inline-block;
+	position: relative;
+	color: #2c3e50;
+	font-weight: 300;
+	text-align: center;
+	cursor: pointer;
+}
+
+div#board div div:hover, div#board div div#selected-1, div#board div div#selected-2 {
+	background-color: #c0392b;
+	color: #ecf0f1;
+}
+
+div#board div div.moving, div#board div div.moving:hover, div#board div div#selected-1.moving, div#board div div#selected-2.moving {
+	background-color: rgba(0, 0, 0, 0);
+	color: #2c3e50;
+}
